@@ -46,6 +46,10 @@ public class SkeletonReader implements Iterable<InMemoryFile> {
 			}
 		}
 
+		public void remove() {
+			throw new RuntimeException("Calling unimplemented 'remove' function");
+		}
+
 	}
 
 	public void close() {
